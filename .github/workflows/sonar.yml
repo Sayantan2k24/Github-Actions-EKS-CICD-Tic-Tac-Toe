@@ -3,7 +3,7 @@ name: Build,Analyze,scan
 on:
   push:
     branches:
-      - main
+      - master
 
 
 jobs:
