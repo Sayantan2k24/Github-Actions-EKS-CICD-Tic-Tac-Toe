@@ -36,3 +36,5 @@ jobs:
           docker push sayantan2k21/tic-tac-toe:latest
         env:
           DOCKER_CLI_ACI: 1
+      - name: Image scan
+        run: trivy image sayantan2k21/tic-tac-toe:latest > trivyimage.txt
